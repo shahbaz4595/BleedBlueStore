@@ -1,0 +1,25 @@
+.card-video-container {
+  width: 30%;
+}
+
+.card-vertical-thin {
+  width: 30%;
+}
+
+.card-image-vertical {
+  width: 90%;
+  height: 16rem;
+}
+
+@media only screen and (max-width: 755px) {
+  .card-vertical-thin {
+    width: 100%;
+  }
+
+  .card-image-vertical {
+    height: 20rem;
+  }
+  .card-video-container {
+    width: 100%;
+  }
+}

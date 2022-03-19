@@ -1,0 +1,118 @@
+{
+  "category": {
+    "gender": {
+      "title": "Browse by category",
+      "items": [
+        {
+          "id": 1,
+          "categoryName": "MEN",
+          "categoryLink": "",
+          "image": "/images/category/men.jpg",
+          "imageText": "men's category"
+        },
+        {
+          "id": 2,
+          "categoryName": "WOMEN",
+          "categoryLink": "",
+          "image": "/images/category/women.jpg",
+          "imageText": "women's category"
+        },
+        {
+          "id": 3,
+          "categoryName": "KIDS",
+          "categoryLink": "",
+          "image": "/images/category/kids.jpg",
+          "imageText": "kids category"
+        }
+      ]
+    },
+    "bestseller": {
+      "title": "Best Seller",
+      "items": [
+        {
+          "id": 1,
+          "categoryName": "INDIAN CRICKET JERSEY",
+          "categoryLink": "",
+          "image": "/images/bestseller/bat.jpg",
+          "imageText": "bestseller bat"
+        },
+        {
+          "id": 2,
+          "categoryName": "INDIAN CRICKET CAP",
+          "categoryLink": "",
+          "image": "/images/bestseller/cap.jpg",
+          "imageText": "bestseller cap"
+        },
+        {
+          "id": 3,
+          "categoryName": "KOOKABURRA BAT",
+          "categoryLink": "",
+          "image": "/images/bestseller/jersey.jpg",
+          "imageText": "bestseller jersey"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "productName": "Batting Pad",
+      "vendor": "BleedBlue",
+      "price": "",
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/pad.jpg",
+      "imageText": "batting pad"
+    },
+    {
+      "id": 2,
+      "productName": "Batting Gloves",
+      "vendor": "BleedBlue",
+      "price": 1500,
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/gloves.jpg",
+      "imageText": "batting gloves"
+    },
+    {
+      "id": 3,
+      "productName": "Indian Cricket Cap",
+      "vendor": "BleedBlue",
+      "price": 1000,
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/cap.jpg",
+      "imageText": "indian cricket cap"
+    },
+    {
+      "id": 4,
+      "productName": "Cricket Bat",
+      "vendor": "BleedBlue",
+      "price": 2500,
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/bat.jpg",
+      "imageText": "cricket bat"
+    },
+    {
+      "id": 5,
+      "productName": "Cricket Helmet",
+      "vendor": "BleedBlue",
+      "price": 4000,
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/helmet.jpg",
+      "imageText": "cricket helmet"
+    },
+    {
+      "id": 6,
+      "productName": "Cricket Stumps",
+      "vendor": "BleedBlue",
+      "price": 1200,
+      "productDescription": "lorem ipsum dolor sit amet, consectetur adip",
+      "badge": "ARRIVED_NOW",
+      "image": "/images/products/stump.jpg",
+      "imageText": "cricket stumps"
+    }
+  ]
+}

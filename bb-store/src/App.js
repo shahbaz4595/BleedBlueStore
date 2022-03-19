@@ -1,7 +1,13 @@
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+
 function App() {
   return (
     <div className="App">
-      <h1>BleedBlue Store</h1>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
