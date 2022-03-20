@@ -66,6 +66,12 @@
 
 .btn-burger {
   display: none;
+<<<<<<< HEAD
+=======
+}
+
+.btn-burger {
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
   background: transparent;
   border: 0;
 }
@@ -80,6 +86,10 @@
   }
 
   .nav-item-group {
+<<<<<<< HEAD
+=======
+    display: flex;
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
     flex-direction: column-reverse;
     gap: 1rem;
     width: 100%;
@@ -95,6 +105,10 @@
 
   .nav-search-bar {
     width: 100%;
+<<<<<<< HEAD
+=======
+    display: flex;
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
     flex-direction: row;
     justify-content: center;
   }

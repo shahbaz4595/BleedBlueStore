@@ -1,6 +1,12 @@
 import { useState } from "react";
+<<<<<<< HEAD
 
 export const NavMenu = ({ navMenu }) => {
+=======
+import headerContent from "../content.json";
+
+const NavMenu = () => {
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
   const [wishlistCount, setWishlistCount] = useState(1);
   const [cartCount, setCartCount] = useState(2);
 
@@ -11,7 +17,11 @@ export const NavMenu = ({ navMenu }) => {
           <i className="fas fa-bars text-md-size"></i>
         </button>
       </li>
+<<<<<<< HEAD
       {navMenu.map((item) => (
+=======
+      {headerContent.navmenu.map((item) => (
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
         <li key={item.id}>
           <a
             href={item.link}
@@ -32,4 +42,8 @@ export const NavMenu = ({ navMenu }) => {
   );
 };
 
+<<<<<<< HEAD
 
+=======
+export default NavMenu;
+>>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
