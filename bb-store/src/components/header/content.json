@@ -9,28 +9,28 @@
       "id": 1,
       "icon": "far fa-user text-md-size",
       "title": "account",
-      "link": "/login.html",
+      "link": "/profile",
       "hasBadge": false
     },
     {
       "id": 2,
       "icon": "far fa-store-alt text-md-size",
       "title": "shop",
-      "link": "/product.html",
+      "link": "/shop",
       "hasBadge": false
     },
     {
       "id": 3,
       "icon": "far fa-heart text-md-size",
       "title": "whishlist",
-      "link": "/wishlist.html",
+      "link": "/wishlist",
       "hasBadge": true
     },
     {
       "id": 4,
       "icon": "far fa-shopping-cart text-md-size",
       "title": "cart",
-      "link": "/cart.html",
+      "link": "/cart",
       "hasBadge": true
     }
   ]

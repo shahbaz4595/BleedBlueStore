@@ -12,21 +12,21 @@
         {
           "id": 1,
           "categoryName": "MEN",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/category/men.jpg",
           "imageText": "men's category"
         },
         {
           "id": 2,
           "categoryName": "WOMEN",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/category/women.jpg",
           "imageText": "women's category"
         },
         {
           "id": 3,
           "categoryName": "KIDS",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/category/kids.jpg",
           "imageText": "kids category"
         }
@@ -38,21 +38,21 @@
         {
           "id": 1,
           "categoryName": "KOOKABURRA BAT",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/bestseller/bat.jpg",
           "imageText": "bestseller bat"
         },
         {
           "id": 2,
           "categoryName": "INDIAN CRICKET CAP",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/bestseller/cap.jpg",
           "imageText": "bestseller cap"
         },
         {
           "id": 3,
           "categoryName": "Indian Cricket Jersey",
-          "categoryLink": "",
+          "categoryLink": "shop",
           "image": "/images/bestseller/jersey.jpg",
           "imageText": "bestseller jersey"
         }

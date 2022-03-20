@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 export const Hero = ({ heroContent }) => {
   const { image, imageText, title, cta_title } = heroContent;
@@ -13,9 +14,9 @@ export const Hero = ({ heroContent }) => {
         />
         <div className="cover-text">
           <h1 className="light-text"> {title} </h1>
-          <a href="/product.html" className="btn btn-light btn-explore">
+          <Link to="/shop" className="btn btn-light btn-explore">
             {cta_title}
-          </a>
+          </Link>
         </div>
       </div>
     </section>
