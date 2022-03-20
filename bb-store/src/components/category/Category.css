@@ -7,16 +7,8 @@
 
 @media only screen and (max-width: 755px) {
   .category-container {
-<<<<<<< HEAD
     flex-direction: column;
     gap: 1rem;
     justify-content: space-between;
-=======
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: space-between;
-    flex-wrap: wrap;
->>>>>>> 1fcb4070a2c175ce60978b057582ef2dc935113d
   }
 }
