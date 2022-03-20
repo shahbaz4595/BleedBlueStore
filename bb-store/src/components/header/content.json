@@ -1,0 +1,37 @@
+{
+  "navBrand": {
+    "brandName": "BleedBlue Store",
+    "brandImage": "/images/brand/bb-dark.png",
+    "brandImageText": "bleedblue logo"
+  },
+  "navMenu": [
+    {
+      "id": 1,
+      "icon": "far fa-user text-md-size",
+      "title": "account",
+      "link": "/login.html",
+      "hasBadge": false
+    },
+    {
+      "id": 2,
+      "icon": "far fa-store-alt text-md-size",
+      "title": "shop",
+      "link": "/product.html",
+      "hasBadge": false
+    },
+    {
+      "id": 3,
+      "icon": "far fa-heart text-md-size",
+      "title": "whishlist",
+      "link": "/wishlist.html",
+      "hasBadge": true
+    },
+    {
+      "id": 4,
+      "icon": "far fa-shopping-cart text-md-size",
+      "title": "cart",
+      "link": "/cart.html",
+      "hasBadge": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "footerBrand": {
+    "brandName": "BleedBlue Store",
+    "brandImage": "/images/brand/bb-dark.png",
+    "brandImageText": "bleedblue logo",
+    "address": "New Delhi, India"
+  },
+  "socialMedia": [
+    {
+      "id": 1,
+      "title": "instagram",
+      "link": "https://instagram.com/shahbazkhan.js",
+      "icon": "fab fa-instagram text-md-size"
+    },
+    {
+      "id": 2,
+      "title": "twitter",
+      "link": "https://twitter.com/shahbazkhan_js",
+      "icon": "fab fa-twitter text-md-size"
+    },
+    {
+      "id": 3,
+      "title": "github",
+      "link": "https://github.com/shahbaz4595/BleedBlueStore/tree/dev",
+      "icon": "fab fa-github text-md-size"
+    },
+    {
+      "id": 4,
+      "title": "linkedin",
+      "link": "https://www.linkedin.com/in/shahbaz-khan4595/",
+      "icon": "fab fa-linkedin text-md-size"
+    }
+  ],
+  "footerLinks": [
+    {
+      "id": 1,
+      "title": "About",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Career",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Contact",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "FAQ",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "title": "Feedback",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "title": "Home",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "title": "Payment",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "title": "Policy",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "title": "Privacy",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "title": "Return",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "title": "Shipping",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "title": "Terms of Use",
+      "link": ""
+    }
+  ]
+}

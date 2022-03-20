@@ -1,7 +1,11 @@
+import { Header, Footer, Home } from "./BleedBlueStore";
+
 function App() {
   return (
     <div className="App">
-      <h1>BleedBlue Store</h1>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
