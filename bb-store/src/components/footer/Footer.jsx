@@ -1,7 +1,8 @@
-import footerContent from "./content.json";
+import footerContent from './content.json';
 import "./Footer.css";
 
-const Footer = () => {
+export const Footer = () => {
+  const { footerBrand, socialMedia, footerLinks } = footerContent;
   return (
     <footer className="dark-bg padder-vh-xl light-text">
       <div className="footer-grid">
@@ -10,17 +11,17 @@ const Footer = () => {
             <div className="brand-logo">
               <img
                 className="img-responsive"
-                src={footerContent.footerBrand.brandImage}
-                alt={footerContent.footerBrand.brandImageText}
+                src={footerBrand.brandImage}
+                alt={footerBrand.brandImageText}
               />
             </div>
             <p className="text-md-size text-bold-weight">
-              {footerContent.footerBrand.brandName}
+              {footerBrand.brandName}
             </p>
           </div>
-          <p>Address: {footerContent.footerBrand.address}</p>
+          <p>Address: {footerBrand.address}</p>
           <ul className="list-reset gutter-vh-lg flex-row gap-md">
-            {footerContent.socialMedia.map((item) => (
+            {socialMedia.map((item) => (
               <li className="list-inline" key={item.id}>
                 <a href={item.link} target="_blank" className="light-text">
                   <i className={item.icon}></i>
@@ -32,7 +33,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-row">
-          {footerContent.footerLinks.map((item) => (
+          {footerLinks.map((item) => (
             <div className="footer-link" key={item.id}>
               <a href={item.link} className="light-text">
                 {item.title}
@@ -45,4 +46,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

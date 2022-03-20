@@ -1,10 +1,10 @@
 {
-  "navbrand": {
+  "navBrand": {
     "brandName": "BleedBlue Store",
     "brandImage": "/images/brand/bb-dark.png",
     "brandImageText": "bleedblue logo"
   },
-  "navmenu": [
+  "navMenu": [
     {
       "id": 1,
       "icon": "far fa-user text-md-size",

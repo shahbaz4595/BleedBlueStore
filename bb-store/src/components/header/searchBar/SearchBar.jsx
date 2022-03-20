@@ -1,4 +1,4 @@
-const SearchBar = () => {
+export const SearchBar = () => {
   return (
     <form className="nav-search-bar">
       <input
@@ -14,4 +14,3 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;

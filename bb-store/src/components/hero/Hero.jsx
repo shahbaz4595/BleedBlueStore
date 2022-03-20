@@ -1,20 +1,20 @@
-import heroContent from "./content.json";
 import "./Hero.css";
 
-const Hero = () => {
+export const Hero = ({ heroContent }) => {
+  const { image, imageText, title, cta_title } = heroContent;
   return (
     <section className="cover-container">
       <div className="landing-page-cover">
         <img
           loading="lazy"
           className="img-responsive cover-image"
-          src={heroContent.hero.image}
-          alt={heroContent.hero.imageText}
+          src={image}
+          alt={imageText}
         />
         <div className="cover-text">
-          <h1 className="light-text"> {heroContent.hero.title} </h1>
+          <h1 className="light-text"> {title} </h1>
           <a href="/product.html" className="btn btn-light btn-explore">
-            {heroContent.hero.cta_title}
+            {cta_title}
           </a>
         </div>
       </div>
@@ -22,4 +22,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+

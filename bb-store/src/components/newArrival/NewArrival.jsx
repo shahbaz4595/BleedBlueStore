@@ -1,7 +1,7 @@
-import ProductCard from "../cards/productCards/ProductCard";
+import { ProductCard } from "../../BleedBlueStore";
 import "./NewArrival.css";
 
-const NewArrival = ({ products }) => {
+export const NewArrival = ({ products }) => {
   return (
     <section id="arrived-now" className="gutter-vh-xl">
       <h5 className="text-center">Arrived Now</h5>
@@ -15,4 +15,4 @@ const NewArrival = ({ products }) => {
   );
 };
 
-export default NewArrival;
+

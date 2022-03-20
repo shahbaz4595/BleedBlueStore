@@ -1,7 +1,6 @@
 import { useState } from "react";
-import headerContent from "../content.json";
 
-const NavMenu = () => {
+export const NavMenu = ({ navMenu }) => {
   const [wishlistCount, setWishlistCount] = useState(1);
   const [cartCount, setCartCount] = useState(2);
 
@@ -12,7 +11,7 @@ const NavMenu = () => {
           <i className="fas fa-bars text-md-size"></i>
         </button>
       </li>
-      {headerContent.navmenu.map((item) => (
+      {navMenu.map((item) => (
         <li key={item.id}>
           <a
             href={item.link}
@@ -33,4 +32,4 @@ const NavMenu = () => {
   );
 };
 
-export default NavMenu;
+

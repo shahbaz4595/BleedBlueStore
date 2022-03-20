@@ -1,17 +1,17 @@
-import CategoryCards from "../cards/categoryCards/CategoryCards";
+import { CategoryCards } from "../../BleedBlueStore";
 import "./Category.css";
 
-const Category = ({ categoryItems }) => {
+export const Category = ({ categoryItems }) => {
+  const { title, items } = categoryItems;
+
   return (
     <section className="gutter-vh-xl">
-      <h5 className="text-center">{categoryItems.title}</h5>
+      <h5 className="text-center">{title}</h5>
       <div className="category-container">
-        {categoryItems.items.map((item) => (
+        {items.map((item) => (
           <CategoryCards item={item} key={item.id} />
         ))}
       </div>
     </section>
   );
 };
-
-export default Category;

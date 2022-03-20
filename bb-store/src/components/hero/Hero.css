@@ -43,22 +43,13 @@
 @media only screen and (max-width: 755px) {
   .landing-page-cover {
     height: 16rem;
-    width: 100%;
-    position: relative;
   }
 
   .cover-text {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-50%, -40%);
     width: 80%;
   }
 
   .cover-text h1 {
     font-size: 1.5rem;
-    text-align: center;
   }
 }

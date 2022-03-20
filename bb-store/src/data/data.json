@@ -1,4 +1,10 @@
 {
+  "hero": {
+    "image": "/images/hero/cover.jpg",
+    "imageText": "Bleed Blue Cover",
+    "title": "Get your customized jersey at 30% OFF",
+    "cta_title": "EXPLORE"
+  },
   "category": {
     "gender": {
       "title": "Browse by category",
@@ -31,7 +37,7 @@
       "items": [
         {
           "id": 1,
-          "categoryName": "INDIAN CRICKET JERSEY",
+          "categoryName": "KOOKABURRA BAT",
           "categoryLink": "",
           "image": "/images/bestseller/bat.jpg",
           "imageText": "bestseller bat"
@@ -45,7 +51,7 @@
         },
         {
           "id": 3,
-          "categoryName": "KOOKABURRA BAT",
+          "categoryName": "Indian Cricket Jersey",
           "categoryLink": "",
           "image": "/images/bestseller/jersey.jpg",
           "imageText": "bestseller jersey"

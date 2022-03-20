@@ -1,26 +1,28 @@
 import "./ProductCard.css";
 
-const ProductCard = ({ product }) => {
+export const ProductCard = ({ product }) => {
+  const { image, imageText, productName, vendor, price, productDescription } =
+    product;
+
   return (
     <div className="card card-vertical card-vertical-thin">
       <div className="card-image-vertical">
         <img
           className="img-responsive"
-          src={product.image}
+          src={image}
           loading="lazy"
-          alt={product.imageName}
+          alt={imageText}
         />
       </div>
       <div className="card-description flex-column justify-around padder-hz-sm">
         <div>
-          <p className="card-title"> {product.productName} </p>
-          <p className="text-rg-size primary-text">by {product.vendorName}</p>
+          <p className="card-title"> {productName} </p>
+          <p className="text-rg-size primary-text">by {vendor}</p>
           <p>
-            {" "}
-            <span>Price:</span> {product.price} Rs.
+            <span>Price:</span> {price} Rs.
           </p>
         </div>
-        <p> {product.productDescription} </p>
+        <p> {productDescription} </p>
         <div className="card-cta flex-row gap-lg align-center justify-between gutter-vh-sm">
           <a>
             <i
@@ -40,4 +42,4 @@ const ProductCard = ({ product }) => {
   );
 };
 
-export default ProductCard;
+

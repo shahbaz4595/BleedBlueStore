@@ -1,20 +1,22 @@
-import NavBrand from "./navBrand/NavBrand";
-import NavMenu from "./navMenu/NavMenu";
-import SearchBar from "./searchBar/SearchBar";
+import { NavBrand, NavMenu, SearchBar } from "../../BleedBlueStore";
+import headerContent from './content.json';
 import './Header.css';
 
-const Header = () => {
+export const Header = () => {
+
+  const { navBrand, navMenu } = headerContent;
+
   return (
     <header className="navbar-section">
       <nav className="navbar light-bg shadow-dark">
-        <NavBrand />
+        <NavBrand navBrand={navBrand} />
         <div className="nav-item-group">
           <SearchBar />
-          <NavMenu />
+          <NavMenu navMenu={navMenu} />
         </div>
       </nav>
     </header>
   );
 };
 
-export default Header;
+

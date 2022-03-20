@@ -1,0 +1,11 @@
+export { CategoryCards } from './components/cards/categoryCards/CategoryCards';
+export { ProductCard } from './components/cards/productCards/ProductCard';
+export { Category } from './components/category/Category';
+export { Footer } from './components/footer/Footer';
+export { NavBrand } from './components/header/navBrand/NavBrand';
+export { NavMenu } from './components/header/navMenu/NavMenu';
+export { SearchBar } from './components/header/searchBar/SearchBar';
+export { Header } from './components/header/Header';
+export { Hero } from './components/hero/Hero';
+export { NewArrival } from './components/newArrival/NewArrival';
+export { Home } from './pages/home/Home';
