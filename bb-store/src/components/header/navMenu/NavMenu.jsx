@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const NavMenu = ({ navMenu }) => {
   const [wishlistCount, setWishlistCount] = useState(1);
@@ -13,8 +14,8 @@ export const NavMenu = ({ navMenu }) => {
       </li>
       {navMenu.map((item) => (
         <li key={item.id}>
-          <a
-            href={item.link}
+          <Link
+            to={item.link}
             className="icon-badge-container"
             title={item.title}
           >
@@ -25,7 +26,7 @@ export const NavMenu = ({ navMenu }) => {
                 </span>
               )}
             </i>
-          </a>
+          </Link>
         </li>
       ))}
     </ul>

@@ -1,10 +1,11 @@
 import "./CategoryCards.css";
+import { Link } from "react-router-dom";
 
 export const CategoryCards = ({ item }) => {
   const { categoryLink, categoryName, image, imageText } = item;
 
   return (
-    <a href={categoryLink} className="card card-video-container">
+    <Link to={`${categoryLink}?category=${categoryName}`} className="card card-video-container">
       <div className="card-video">
         <div className="card-video-cover">
           <img
@@ -18,6 +19,6 @@ export const CategoryCards = ({ item }) => {
           <div className="video-caption-link">{categoryName}</div>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };

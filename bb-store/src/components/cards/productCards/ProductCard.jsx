@@ -1,4 +1,5 @@
 import "./ProductCard.css";
+import { Link } from "react-router-dom";
 
 export const ProductCard = ({ product }) => {
   const { image, imageText, productName, vendor, price, productDescription } =

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import footerContent from "./content.json";
 import "./Footer.css";
 
@@ -35,9 +36,9 @@ export const Footer = () => {
         <div className="footer-row">
           {footerLinks.map((item) => (
             <div className="footer-link" key={item.id}>
-              <a href={item.link} className="light-text">
+              <Link to={item.link} className="light-text">
                 {item.title}
-              </a>
+              </Link>
             </div>
           ))}
         </div>
