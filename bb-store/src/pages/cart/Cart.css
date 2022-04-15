@@ -1,0 +1,25 @@
+.cart-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cartItem cartItem cartDetails";
+    gap: 2rem;
+}
+
+.cart-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    grid-area: cartItem;
+}
+
+@media only screen and (max-width: 755px) {
+    .cart-section {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "cartItem"
+        "cartDetails";
+    }
+ }

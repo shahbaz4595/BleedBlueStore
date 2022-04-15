@@ -16,3 +16,8 @@ export { Shop } from './pages/shop/Shop';
 export { UserProfile } from './pages/userProfile/UserProfile';
 export { Wishlist } from './pages/wishlist/Wishlist';
 export { Cart } from './pages/cart/Cart';
+export { InputField } from './components/formFields/InputField';
+export { SubmitButton } from './components/formFields/SubmitButton';
+export { CartCards } from './components/cards/cartCards/CartCards';
+export { CheckoutCard } from './components/cards/checkoutCard/CheckoutCard';
+export { ProductFilter } from './components/productFilter/ProductFilter';

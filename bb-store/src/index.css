@@ -8,3 +8,38 @@ body {
   color: var(--bb-dark-color);
 }
 
+.page-container {
+  padding: 16vh 4vw;
+}
+
+.form-container {
+  padding: 20vh 20vw;
+}
+
+.form-field {
+  padding-left: 0.5rem;
+}
+
+.form-field.invalid {
+  border-color: red;
+  outline: none;
+}
+
+.btn.btn-disabled {
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 755px) {
+  .page-container {
+    padding: 22vh 4vw;
+  }
+}
+
+
+
+
+
+
+
+
+
